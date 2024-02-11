@@ -1,10 +1,12 @@
 import mount from '../assets/mount.jpg'
 import sydney from '../assets/sydney.jpg'
 import norway from '../assets/geiranger.jpg'
+import icon from '../assets/location.svg'
 export default [
    {
     title: "Mount Fuji",
     location: "Japan",
+    locationIcon: icon,
     googleMapsUrl: "",
     startDate: "12 Jan, 2021",
     endDate: "24 Jan, 2021",
@@ -14,6 +16,7 @@ export default [
    {
     title: "Sydney Opera House",
     location: "Australia",
+    locationIcon: icon,
     googleMapsUrl: "",
     startDate: "27 May, 2021",
     endDate: "8 Jun, 2021",
@@ -23,6 +26,7 @@ export default [
    {
     title: "Geirangerfjord",
     location: "Norway",
+    locationIcon: icon,
     googleMapsUrl: "",
     startDate: "01 Oct, 2021",
     endDate: "18 Nov, 2021",
